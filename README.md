@@ -2,6 +2,7 @@ craigslist-assistant
 ====================
 
 Setup:
+
 1. Preferably in a virtualenv, run: `pip install -r requirements.txt`
 2. `./manage.py syncdb --migrate`
 3. Edit the bottom of settings.py with your own specifications about the needs for your apartment (area, price, rooms, etc)
